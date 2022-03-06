@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="review.js"></script>
+    <script src="https://kit.fontawesome.com/454a2244bd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="review.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link
+    rel="shortcut icon"
+    size="16x16 32x32 64x64" 
+    href="https://cdn-icons-png.flaticon.com/512/4433/4433913.png"
+  	/>
+    <title>다이어트는내일부터</title>
+</head>
+<body>
+    <a class="homejpg" ><img src="main.jpg" alt=""></a>
+    <a class="homejpg" ><img src="main.jpg" alt=""></a>
+    <div class="overlay">
+        <div class="header">
+            <div class="logo" onclick="location.href='home.html'">DIETTOMORROW</div>
+            <div class="nav">
+                <div class="nav-item" id="mainpage" onclick="location.href='home.html'">홈</div>
+                <div class="nav-item" id="program">프로그램</div>
+                <div class="nav-item" id="one-minute">1분 칼소폭</div>
+                <div class="nav-item" id="hotclip">NEW 요즘 뜨는 영상</div>
+                <div class="nav-item" id="reviewList" onclick="location.href='review.html'">영상 후기</div>
+            </div>
+            <div class="menu">
+                <div class="menu-item"><i class="bi bi-search"></i></div>
+                <div class="menu-item"><i class="bi bi-bell-fill"></i></div>
+                <div class="menu-item"><i class="bi bi-heart-fill"></i></div>
+                <div class="menu-item" onclick="location.href='mypage.html'"><i class="bi bi-person-circle"></i></div>
+                <div class="menu-item"><i class="fa-solid fa-comment-sms"></i></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="review">
+                <div class="name">영상 후기</div>
+                <hr>
+                <div class="container-carousel">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <div class="videos" id="video0">
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <div class="videos" id="video1">
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <div class="videos" id="video2">
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <div class="videos" id="video3">
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <div class="videos" id="video4">
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <div class="videos" id="video5">
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <div class="videos" id="video6">
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <div class="videos" id="video7">
+                            </div>
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <hr>
+                <div class="container2">
+                    <div class="container2-1">
+                        <span class="review-title">
+                            <strong>
+                                review |
+                            </strong>
+                        </span>
+                        <strong>
+                            <span class="review-num">
+                                (9,999+)
+                            </span>
+                        </strong>
+                        <span style="display: flex; align-items: flex-end; font-size: 17px; cursor: pointer;"><a href="#table-review" style="color: aliceblue; text-decoration-line : none;">전체리뷰보기<i class="bi bi-chevron-double-right"></i></a></span>
+                    </div>
+                    <hr>
+                    <div class="container3">
+                        <div class="review-summary">
+                            <div class="summary">
+                                <div class="score">
+                                   <span><i class="fa-solid fa-dumbbell"></i></span>
+                                   <span>4.8</span>
+                                </div>
+                                <div style="margin-top: 20px;">96%의 헬린이가 이 동영상을 좋아합니다.</div>
+                            </div>
+                        </div>                  
+                        <div class="review-rating">
+                            <div>
+                                근육이 찢어질 것 같아요
+                                <div class="progress">
+                                    <div class="progress-bar bg-danger" role="progressbar" style="width: 91%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">91%</div>
+                                </div>
+                            </div>
+                            <div>
+                                근육이 아파해요
+                                <div class="progress">
+                                    <div class="progress-bar bg-danger" role="progressbar" style="width: 7%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">7%</div>
+                                </div>
+                            </div>
+                            <div>
+                                적당해요
+                                <div class="progress">
+                                    <div class="progress-bar bg-danger" role="progressbar" style="width: 2%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">2%</div>
+                                </div>
+                            </div>
+                            <div>
+                                유지어터에요
+                                <div class="progress">
+                                    <div class="progress-bar bg-danger" role="progressbar" style="width: 0%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">0%</div>
+                                </div>
+                            </div>
+                            <div>
+                                살쪘어요
+                                <div class="progress">
+                                    <div class="progress-bar bg-danger" role="progressbar" style="width: 0%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">0%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="container4">
+                        <div>
+                            제목:
+                            <input type="text" class="review-input" id="mytitle" placeholder="리뷰제목을 입력해주세요">
+                            <input type="button" value="등록">
+                            <!-- <input type="button" value=""> -->
+                        </div>
+                        <hr>
+                        <div>
+                            내용:
+                            <input type="text" class="review-input" id="mycontents" placeholder="리뷰를 작성해주세요">
+                        </div>
+                    </div>
+                    <div class="container5">
+                        <div>
+                            <table class="table" id="table-review">
+                                <thead>
+                                    <tr class="review-head">
+                                        <th scope="col-4">번호</th>
+                                        <th scope="col-4">리뷰제목</th>
+                                        <th scope="col-4">리뷰내용</th>
+                                        <th scope="col-4">작성시간</th>
+                                        <th scope="col-4">작성자</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="review-detail">
+                                    <tr class="review-details">
+                                        <td scope="col-4">1</td>
+                                        <td scope="col-4">운동맛집</td>
+                                        <td scope="col-4">땅끄부부와 함께하는 운동 정말 매운.....</td>
+                                        <td scope="col-4">23:15:33</td>
+                                        <td scope="col-4">유지슬</td>
+                                        <td scope="col-4">
+                                            <!-- Button trigger modal -->
+                                            <button type="button" class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                상세
+                                            </button>                                            
+                                            <!-- Modal -->
+                                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog">
+                                                <div class="modal-content" style="background-color: rgba(22, 22, 22, 0.808);">
+                                                    <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel">후기남기기</h5>
+                                                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-review-title">
+                                                        <h5>리뷰제목: 운동맛집</h5>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <h6>리뷰내용</h6>
+                                                        <div class="review-contents">
+                                                            땅끄부부와 함께하는 운동 정말 매운맛
+                                                        </div>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">닫기</button>
+                                                    </div>
+                                                </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr class="review-details">
+                                        <td scope="col-4">2</td>
+                                        <td scope="col-4">헬린이추천</td>
+                                        <td scope="col-4">빡빡이형이랑 함께하는 운동은.....</td>
+                                        <td scope="col-4">19:20:25</td>
+                                        <td scope="col-4">이선호</td>
+                                        <td scope="col-4">
+                                            <!-- Button trigger modal -->
+                                            <button type="button" class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                                                상세
+                                            </button>                                            
+                                            <!-- Modal -->
+                                            <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog">
+                                                <div class="modal-content" style="background-color: rgba(22, 22, 22, 0.808);">
+                                                    <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel">후기남기기</h5>
+                                                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-review-title">
+                                                        <h5>리뷰제목: 헬린이추천</h5>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <h6>리뷰내용</h6>
+                                                        <div class="review-contents">
+                                                            빡빡이형이랑 함께하는 운동은 역시 재밌어
+                                                        </div>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">닫기</button>
+                                                    </div>
+                                                </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        
+                                    </tr>
+                                    <tr class="review-details">
+                                        <td scope="col-4">3</td>
+                                        <td scope="col-4">동대문헬스보스</td>
+                                        <td scope="col-4">집앞 헬스장 보다 낳은 영.....</td>
+                                        <td scope="col-4">17:10:20</td>
+                                        <td scope="col-4">김정아</td>
+                                        <td scope="col-4">
+                                            <!-- Button trigger modal -->
+                                            <button type="button" class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                                                상세
+                                            </button>                                            
+                                            <!-- Modal -->
+                                            <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog">
+                                                <div class="modal-content" style="background-color: rgba(22, 22, 22, 0.808);">
+                                                    <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel">후기남기기</h5>
+                                                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-review-title">
+                                                        <h5>리뷰제목: 동대문헬스보스</h5>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <h6>리뷰내용</h6>
+                                                        <div class="review-contents">
+                                                            집앞 헬스장 보다 낳은 영상으로 하는 홈트
+                                                        </div>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">닫기</button>
+                                                    </div>
+                                                </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr class="review-details">
+                                        <td scope="col-4">4</td>
+                                        <td scope="col-4">스파르타</td>
+                                        <td scope="col-4">영화 300말고 3대 300.....</td>
+                                        <td scope="col-4">13:10:20</td>
+                                        <td scope="col-4">로마제국병사</td>
+                                        <td scope="col-4">
+                                            <!-- Button trigger modal -->
+                                            <button type="button" class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                                                상세
+                                            </button>                                            
+                                            <!-- Modal -->
+                                            <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog">
+                                                <div class="modal-content" style="background-color: rgba(22, 22, 22, 0.808);">
+                                                    <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel">후기남기기</h5>
+                                                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-review-title">
+                                                        <h5>리뷰제목: 스파르타</h5>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <h6>리뷰내용</h6>
+                                                        <div class="review-contents">
+                                                            영화 300말고 3대 300
+                                                        </div>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">닫기</button>
+                                                    </div>
+                                                </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr class="review-details">
+                                        <td scope="col-4">5</td>
+                                        <td scope="col-4">미곤피곤</td>
+                                        <td scope="col-4">온몸의 근육들이 정렬되는 이 맛.....</td>
+                                        <td scope="col-4">09:11:26</td>
+                                        <td scope="col-4">미곤이</td>
+                                        <td scope="col-4">
+                                            <!-- Button trigger modal -->
+                                            <button type="button" class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                                                상세
+                                            </button>                                            
+                                            <!-- Modal -->
+                                            <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog">
+                                                <div class="modal-content" style="background-color: rgba(22, 22, 22, 0.808);">
+                                                    <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel">후기남기기</h5>
+                                                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-review-title">
+                                                        <h5>리뷰제목: 미곤피곤</h5>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <h6>리뷰내용</h6>
+                                                        <div class="review-contents">
+                                                            온몸의 근육들이 정렬되는 이 맛
+                                                        </div>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">닫기</button>
+                                                    </div>
+                                                </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr class="review-details">
+                                        <td scope="col-4">6</td>
+                                        <td scope="col-4">난방안틀어도따수미</td>
+                                        <td scope="col-4">영상만 따라하면 여기가 바로 난방텐트.....</td>
+                                        <td scope="col-4">02:32:43</td>
+                                        <td scope="col-4">수미수미따수미</td>
+                                        <td scope="col-4">
+                                            <!-- Button trigger modal -->
+                                            <button type="button" class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal5">
+                                                상세
+                                            </button>                                            
+                                            <!-- Modal -->
+                                            <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog">
+                                                <div class="modal-content" style="background-color: rgba(22, 22, 22, 0.808);">
+                                                    <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel">후기남기기</h5>
+                                                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-review-title">
+                                                        <h5>리뷰제목: 난방안틀어도따수미</h5>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <h6>리뷰내용</h6>
+                                                        <div class="review-contents">
+                                                            영상만 따라하면 여기가 바로 난방텐트, 수미수미따수미
+                                                        </div>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">닫기</button>
+                                                    </div>
+                                                </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>             
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+</body>
+</html>

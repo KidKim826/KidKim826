@@ -1,0 +1,244 @@
+/* * {
+    border: 1px solid greenyellow;
+} */
+/* * {
+    background-color: black;
+} */
+/* .container {
+    background-color: black;
+} */
+
+
+.home {
+    position: relative;
+    background-color: black;
+}
+
+video {
+    width: 100%;
+}
+
+.overlay {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+}
+
+.header {
+    display: flex;
+    align-items: baseline;
+}
+
+.logo {
+    color: red;
+    margin-right: 40px;
+    font-size: 53px;
+    font-weight: 950;
+    line-height: 36px;
+    cursor: pointer;
+}
+.nav {
+    display: flex;
+    color: white;
+    line-height: 36px;
+}
+
+.nav-item {
+    padding: 0 10px;
+    font-size: larger;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.menu {
+    display: flex;
+    margin-left: auto;
+    color: white;
+    line-height: 36px;
+}
+
+.menu-item {
+    font-size: large;
+    font-weight: 400;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+
+.banner {
+    color: white;
+}
+.name {
+    font-size: larger;
+    font-weight: 700;
+}
+
+.title {
+    font-size: 72px;
+}
+
+.badge {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 900;
+    padding: 15px 0;
+}
+.discription {
+    padding: 15px 0;
+    width: 40%;
+    margin-top: 20px;
+}
+.buttons {
+    display: flex;
+    padding: 20px 0;
+
+}
+.white-button {
+    color: black;
+    background-color: white;
+    padding: 10px 25px;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 900;
+    cursor: pointer;
+}
+.gray-button {
+    color: white;
+    background-color: rgba(170, 170, 170, .4);
+    padding: 10px 25px;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 900;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.category-list {
+    position: absolute;
+    top: 500px;
+    left: 50px;
+    width: calc(100% - 50px);
+}
+
+.category {
+    width: 100%;
+    position: absolute;
+}
+
+.category .title2 {
+    font-size: 18px;
+    font-weight: 900;
+    color: white;
+    padding: 15px 0;
+}
+/* 이부분은 나중에 다시 도전... */
+/* .list {
+    display: flex;
+    overflow-x: hidden;
+}
+.contents {
+    padding: 2px;
+} */
+/* 동영상에 마우스 올리면 확대 */
+/* .contents:hover { 
+ transform: scale(1.5);
+ transition: 0.1s;
+ transition-delay: 1s;
+} */
+
+/* .contents img {
+    border-radius: 4px;
+} */
+
+
+.container> h2{
+    color: rgba(255, 255, 255, 0.808);
+    font-weight: 500;
+}
+.replay {
+    position: absolute;
+    right: 3px;
+    width: 50px;
+    display: flex;
+}
+.replay-button {
+    display: inline-block;
+    color: white;
+    border: none;
+    font-size: xx-large;
+    cursor: pointer;
+}
+
+.card {
+    background-color: black;
+    border: none;
+}
+.card-body {
+    background-color: black;
+}
+
+.btncancle {
+    border: 1px;
+    border-radius: 2px;
+    box-shadow: 1px 1px;
+    color: rgb(252, 42, 42);
+    box-shadow: 1px 1px 5px 1px;
+    text-align: center;
+}
+
+.btnsubmit {
+    border: 1px;
+    border-radius: 2px;
+    color:  rgb(67, 174, 236);;
+    box-shadow: 1px 1px 5px 1px;
+    text-align: center;
+}
+
+#exampleModalLabel {
+    font-size: larger;
+    font-weight: 1000;
+    color: white;
+}
+
+.modal-dialog { 
+    width: 100%; 
+    height: 50%; 
+    margin: 0; 
+    padding: 0; 
+}
+
+.modal-dialog {
+    height: 200px;
+}
+
+
+
+.reiviewTitle {
+    border: 0.5px solid white;
+    color: white;
+    width: 465px;
+}
+
+.reiviewinput {
+    border: 0.5px solid white;
+    color: white;
+    width: 465px;
+    height: 200px;
+    word-break: break-all;
+    white-space:normal;
+}
+
+.footer-container {
+    margin-top: 100%;
+    background-color: black;
+    color: aliceblue;
+}
+footer { 
+    height: 30px;
+    bottom : 0;
+    color: aliceblue;
+    text-align: center;
+}

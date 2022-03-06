@@ -1,0 +1,189 @@
+/* * {
+    border: 1px solid greenyellow;
+} */
+
+
+.body {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vw;
+    background-position: center center;
+    background-size: cover;
+    font-family: "sans-serif";
+    background-color: black;
+}
+
+img {
+    width: 100%;
+}
+
+/* 원래는 메인 페이지에서 동영상 위에 오버레이로 띄운다고 지정해줬던 부분*/
+.overlay {
+    background-color: black;
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 65px;
+    padding: 10px;
+}
+
+.header {
+    display: flex;
+    align-items: baseline;
+}
+
+.logo {
+    color: red;
+    margin-right: 40px;
+    font-size: 53px;
+    font-weight: 950;
+    line-height: 36px;
+    cursor: pointer;
+}
+.nav {
+    display: flex;
+    color: white;
+    line-height: 36px;
+}
+
+.nav-item {
+    padding: 0 10px;
+    font-size: larger;
+    font-weight: 400;
+    cursor: pointer;
+}
+.menu {
+    display: flex;
+    margin-left: auto;
+    color: white;
+    line-height: 36px;
+}
+
+.menu-item {
+    font-size: larger;
+    font-weight: 400;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+/* 밑에까지 쭉 담고 싶은데 잘 안되어서 일단 height를 임의로 줬다. */
+.container {
+    margin-top: 130px;
+    margin-bottom: 130px;
+    padding: 30px;
+    background-color: rgba(87, 84, 84, 0.692);
+    height: 1400px;
+}
+
+.name {
+    font-size: 50px;
+    font-weight: 900;
+    font-family: sans-serif;
+    text-align: center;
+    color: aliceblue;
+}
+
+.container2 {
+    margin-top: 30px;
+    display: block;
+    justify-content: center;
+    color: white;
+}
+
+.container2-1 {
+    margin-left: 120px;
+    margin-right: 120px;
+    font-size: 30px;
+}
+
+
+.container4 {
+    margin-left: 120px;
+    margin-right: 120px;
+
+}
+.mypage-summary {
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.score {
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.mypage-rate{
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 30px;
+    color: white;
+}
+.progress {
+    width: 20%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.review-input {
+
+    width: 1000px;
+    border: none;
+    background-color: rgba(209, 207, 207, 0.918);
+}
+
+.review-head {
+    color: aliceblue;
+}
+
+#mytitle {
+    height: 35px;
+}
+
+#mycontents {
+    height: 400px;
+}
+
+.container5 {
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.review-detail {
+    cursor: pointer;
+    color: aliceblue;
+}
+
+
+
+.modal-body > input {
+    width: 100%;
+    height: 200px;
+    background-color: rgba(83, 83, 83, 0.589);
+    color: aliceblue;
+    border-radius: 10px;
+}
+
+.modal-review-title {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid aliceblue;
+}
+
+
+.footer-container {
+    margin-top: 100%;
+    background-color: black;
+    color: aliceblue;
+}
+footer { 
+    height: 30px;
+    bottom : 0;
+    color: aliceblue;
+    text-align: center;
+}
