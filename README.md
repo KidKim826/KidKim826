@@ -1,7 +1,6 @@
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=slice&color=auto&height=200&text=HI&fontAlign=70&rotate=13&fontAlignY=25&desc=KidKim826%20KimJungAh&descAlign=70.&descAlignY=44" />
 </div>
-<br><br>
 
 <div align="center">
   <h3>hi there 👋<h3>
@@ -17,10 +16,8 @@
 
 
 
-<br><br>
-
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=slice&reversal=true&color=auto&height=300&section=footer&fontSize=90" />
+  <img src="https://capsule-render.vercel.app/api?type=slice&reversal=true&color=auto&height=200&section=footer&fontSize=90" />
 </div>
 
 
