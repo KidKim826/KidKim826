@@ -7,8 +7,8 @@
 </div>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KidKim826&layout=compact"><br>
-  <img src="https://github-readme-stats.vercel.app/api?username=KidKim826&show_icons=true&theme=slateorange">
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=KidKim826&layout=compact"><br>
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=KidKim826&show_icons=true&theme=slateorange">
 </div>
 
 
