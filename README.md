@@ -7,8 +7,8 @@
 <a href="https://www.gitanimals.org/en_US?utm_medium=image&utm_source=KidKim826&utm_content=farm">
 <img
   src="https://render.gitanimals.org/farms/KidKim826"
-  width="600"
-  height="300"
+  width="500"
+  height="200"
 />
 </a>
 </div>
@@ -31,8 +31,8 @@
 
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KidKim826&layout=compact"><br>
-  <img src="https://github-readme-stats.vercel.app/api?username=KidKim826&show_icons=true&theme=gruvbox">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KidKim826&layout=compact" width="400"><br>
+  <img src="https://github-readme-stats.vercel.app/api?username=KidKim826&show_icons=true&theme=gruvbox" width="400">
 </div>
 
 
