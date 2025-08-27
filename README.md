@@ -1,6 +1,10 @@
 
 <div align="center">
-  <h4>hi there 👋<h4>
+  <h4>hi there 👋</h4>
+  <p align="center">
+  <img src="https://flipdots.vercel.app/api/svg?text=RiTa%27s_Git&animationMode=scroll&style=basic&dotSize=12&spacing=2&animationMode=static">
+</p>
+
 </div>
 
 <div align="center">
@@ -14,7 +18,7 @@
 </div>
 
 <br/>
----
+
 <p align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" width="48" height="48" alt="Spring Boot" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="48" height="48" alt="Java" />
